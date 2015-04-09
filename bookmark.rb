@@ -9,6 +9,8 @@ class Bookmark
   end
 
   def visit!
-    Time.now
+    @last_visited = Time.now
   end
 end
+
+book = Bookmark.new('www.google.com', 'Enders Game')
