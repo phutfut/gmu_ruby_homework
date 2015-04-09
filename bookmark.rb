@@ -5,7 +5,7 @@ class Bookmark
   def initialize(url, title)
     @url = url
     @title = title
-    @last_visited = self.visit!
+    self.visit!
   end
 
   def visit!
