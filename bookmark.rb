@@ -12,5 +12,3 @@ class Bookmark
     Time.now
   end
 end
-
-puts bookmark = Bookmark.new('www.google.com', 'google')
